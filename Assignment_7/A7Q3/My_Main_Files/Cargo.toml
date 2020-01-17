@@ -1,0 +1,11 @@
+[package]
+name = "My_Main_Files"
+version = "0.1.0"
+authors = ["NoumanAftab <nom.aftab@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+food_lib_package = {path = "../food_lib_package"}
+
